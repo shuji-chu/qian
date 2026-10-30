@@ -1,7 +1,7 @@
 {
  "schema_version": "2.0.0",
- "generated_at": 1793344959,
- "generated_at_str": "2026-10-30 15:22:39",
+ "generated_at": 1793345043,
+ "generated_at_str": "2026-10-30 15:24:03",
  "timezone": "Asia/Shanghai",
  "repo": "shuji-chu/qian",
  "branch": "main",
@@ -15,7 +15,7 @@
   },
   "accounts.json": {
    "bytes": 1723957,
-   "sha256": "05ff7dab3b08ec03fa33520703285cd87cc2d58b568228745e7d89eef229e662",
+   "sha256": "b19b6bcf6bf52be048458d0c7079071cff06c8aadce240e2b1cd99d8ec14465a",
    "count": 1861,
    "raw": "https://raw.githubusercontent.com/shuji-chu/qian/main/accounts.json"
   },
@@ -70,7 +70,7 @@
    "zh": "Telegram",
    "en": "Telegram",
    "count": 62,
-   "stock_total": 8832,
+   "stock_total": 8831,
    "in_stock": 62,
    "cover_url": "https://api.lynli.me/static/qian/covers/telegram.svg"
   },
