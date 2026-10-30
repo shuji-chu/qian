@@ -1,0 +1,456 @@
+{
+ "schema_version": "2.0.0",
+ "generated_at": 1793344422,
+ "generated_at_str": "2026-10-30 15:13:42",
+ "timezone": "Asia/Shanghai",
+ "repo": "shuji-chu/qian",
+ "branch": "main",
+ "raw_base": "https://raw.githubusercontent.com/shuji-chu/qian/main/",
+ "files": {
+  "nodes.json": {
+   "bytes": 96896,
+   "sha256": "e984a4f38a734514bc5305a5b6a8d188b77f1b8d2cb6f3fd939807830998e9f5",
+   "count": 135,
+   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/main/nodes.json"
+  },
+  "accounts.json": {
+   "bytes": 1723957,
+   "sha256": "05ff7dab3b08ec03fa33520703285cd87cc2d58b568228745e7d89eef229e662",
+   "count": 1861,
+   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/main/accounts.json"
+  },
+  "traffic.json": {
+   "bytes": 3550552,
+   "sha256": "1e2d17c7578d430c8dc7895d742193c7dc6c068b2cfc7884a50029e241c5724e",
+   "count": 4482,
+   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/main/traffic.json"
+  },
+  "servers.json": {
+   "bytes": 1645,
+   "sha256": "05f4f44b5b5ab07128d15bde072add12e7960baf02a2d453293426fe88c4d566",
+   "count": 6,
+   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/main/servers.json"
+  }
+ },
+ "counts": {
+  "nodes": 135,
+  "accounts": 1861,
+  "traffic": 4482,
+  "servers": 6,
+  "protocols": 9,
+  "account_categories": 39,
+  "traffic_platforms": 11
+ },
+ "units": {
+  "price": "元（price_cents 为分，price_unit='yuan'）",
+  "transfer": "GB（transfer_bytes 为字节）",
+  "period_days": "天"
+ },
+ "account_categories": [
+  {
+   "slug": "email-accounts",
+   "zh": "邮箱账号",
+   "en": "Email Accounts",
+   "count": 349,
+   "stock_total": 8021,
+   "in_stock": 349,
+   "cover_url": "https://api.lynli.me/static/qian/covers/email-accounts.svg"
+  },
+  {
+   "slug": "bulk-email-accounts",
+   "zh": "邮箱账号批发",
+   "en": "Bulk Email Accounts",
+   "count": 344,
+   "stock_total": 1806,
+   "in_stock": 344,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-email-accounts.svg"
+  },
+  {
+   "slug": "telegram",
+   "zh": "Telegram",
+   "en": "Telegram",
+   "count": 62,
+   "stock_total": 8832,
+   "in_stock": 62,
+   "cover_url": "https://api.lynli.me/static/qian/covers/telegram.svg"
+  },
+  {
+   "slug": "threads",
+   "zh": "Threads",
+   "en": "Threads",
+   "count": 62,
+   "stock_total": 8781,
+   "in_stock": 62,
+   "cover_url": "https://api.lynli.me/static/qian/covers/threads.svg"
+  },
+  {
+   "slug": "chatgpt",
+   "zh": "ChatGPT",
+   "en": "ChatGPT",
+   "count": 62,
+   "stock_total": 9438,
+   "in_stock": 62,
+   "cover_url": "https://api.lynli.me/static/qian/covers/chatgpt.svg"
+  },
+  {
+   "slug": "apple-id",
+   "zh": "Apple ID",
+   "en": "Apple ID",
+   "count": 62,
+   "stock_total": 9812,
+   "in_stock": 62,
+   "cover_url": "https://api.lynli.me/static/qian/covers/apple-id.svg"
+  },
+  {
+   "slug": "gmail",
+   "zh": "Gmail",
+   "en": "Gmail",
+   "count": 62,
+   "stock_total": 10009,
+   "in_stock": 61,
+   "cover_url": "https://api.lynli.me/static/qian/covers/gmail.svg"
+  },
+  {
+   "slug": "steam",
+   "zh": "Steam",
+   "en": "Steam",
+   "count": 62,
+   "stock_total": 8841,
+   "in_stock": 62,
+   "cover_url": "https://api.lynli.me/static/qian/covers/steam.svg"
+  },
+  {
+   "slug": "ai-tools",
+   "zh": "AI 工具",
+   "en": "AI Tools",
+   "count": 62,
+   "stock_total": 9370,
+   "in_stock": 62,
+   "cover_url": "https://api.lynli.me/static/qian/covers/ai-tools.svg"
+  },
+  {
+   "slug": "netflix",
+   "zh": "Netflix",
+   "en": "Netflix",
+   "count": 60,
+   "stock_total": 9309,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/netflix.svg"
+  },
+  {
+   "slug": "spotify",
+   "zh": "Spotify",
+   "en": "Spotify",
+   "count": 60,
+   "stock_total": 8919,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/spotify.svg"
+  },
+  {
+   "slug": "tiktok",
+   "zh": "TikTok",
+   "en": "TikTok",
+   "count": 60,
+   "stock_total": 9423,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/tiktok.svg"
+  },
+  {
+   "slug": "twitter-x",
+   "zh": "Twitter / X",
+   "en": "Twitter / X",
+   "count": 60,
+   "stock_total": 9223,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/twitter-x.svg"
+  },
+  {
+   "slug": "discord",
+   "zh": "Discord",
+   "en": "Discord",
+   "count": 60,
+   "stock_total": 8752,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/discord.svg"
+  },
+  {
+   "slug": "instagram",
+   "zh": "Instagram",
+   "en": "Instagram",
+   "count": 60,
+   "stock_total": 9620,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/instagram.svg"
+  },
+  {
+   "slug": "whatsapp",
+   "zh": "WhatsApp",
+   "en": "WhatsApp",
+   "count": 60,
+   "stock_total": 9071,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/whatsapp.svg"
+  },
+  {
+   "slug": "reddit",
+   "zh": "Reddit",
+   "en": "Reddit",
+   "count": 60,
+   "stock_total": 9680,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/reddit.svg"
+  },
+  {
+   "slug": "paypal",
+   "zh": "PayPal",
+   "en": "PayPal",
+   "count": 60,
+   "stock_total": 9995,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/paypal.svg"
+  },
+  {
+   "slug": "outlook",
+   "zh": "Outlook",
+   "en": "Outlook",
+   "count": 60,
+   "stock_total": 9572,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/outlook.svg"
+  },
+  {
+   "slug": "facebook",
+   "zh": "Facebook",
+   "en": "Facebook",
+   "count": 60,
+   "stock_total": 9000,
+   "in_stock": 60,
+   "cover_url": "https://api.lynli.me/static/qian/covers/facebook.svg"
+  },
+  {
+   "slug": "bulk-telegram",
+   "zh": "Telegram批发",
+   "en": "Bulk Telegram",
+   "count": 4,
+   "stock_total": 31,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-telegram.svg"
+  },
+  {
+   "slug": "bulk-threads",
+   "zh": "Threads批发",
+   "en": "Bulk Threads",
+   "count": 4,
+   "stock_total": 27,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-threads.svg"
+  },
+  {
+   "slug": "bulk-chatgpt",
+   "zh": "ChatGPT批发",
+   "en": "Bulk ChatGPT",
+   "count": 4,
+   "stock_total": 33,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-chatgpt.svg"
+  },
+  {
+   "slug": "bulk-apple-id",
+   "zh": "Apple ID批发",
+   "en": "Bulk Apple ID",
+   "count": 4,
+   "stock_total": 36,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-apple-id.svg"
+  },
+  {
+   "slug": "bulk-gmail",
+   "zh": "Gmail批发",
+   "en": "Bulk Gmail",
+   "count": 4,
+   "stock_total": 43,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-gmail.svg"
+  },
+  {
+   "slug": "bulk-steam",
+   "zh": "Steam批发",
+   "en": "Bulk Steam",
+   "count": 4,
+   "stock_total": 29,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-steam.svg"
+  },
+  {
+   "slug": "bulk-ai-tools",
+   "zh": "AI Tools批发",
+   "en": "Bulk AI Tools",
+   "count": 4,
+   "stock_total": 20,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-ai-tools.svg"
+  },
+  {
+   "slug": "bulk-netflix",
+   "zh": "Netflix批发",
+   "en": "Bulk Netflix",
+   "count": 4,
+   "stock_total": 23,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-netflix.svg"
+  },
+  {
+   "slug": "bulk-spotify",
+   "zh": "Spotify批发",
+   "en": "Bulk Spotify",
+   "count": 4,
+   "stock_total": 31,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-spotify.svg"
+  },
+  {
+   "slug": "bulk-tiktok",
+   "zh": "TikTok批发",
+   "en": "Bulk TikTok",
+   "count": 4,
+   "stock_total": 25,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-tiktok.svg"
+  },
+  {
+   "slug": "bulk-twitter-x",
+   "zh": "Twitter / X批发",
+   "en": "Bulk Twitter / X",
+   "count": 4,
+   "stock_total": 30,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-twitter-x.svg"
+  },
+  {
+   "slug": "bulk-discord",
+   "zh": "Discord批发",
+   "en": "Bulk Discord",
+   "count": 4,
+   "stock_total": 21,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-discord.svg"
+  },
+  {
+   "slug": "bulk-instagram",
+   "zh": "Instagram批发",
+   "en": "Bulk Instagram",
+   "count": 4,
+   "stock_total": 34,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-instagram.svg"
+  },
+  {
+   "slug": "bulk-whatsapp",
+   "zh": "WhatsApp批发",
+   "en": "Bulk WhatsApp",
+   "count": 4,
+   "stock_total": 24,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-whatsapp.svg"
+  },
+  {
+   "slug": "bulk-reddit",
+   "zh": "Reddit批发",
+   "en": "Bulk Reddit",
+   "count": 4,
+   "stock_total": 35,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-reddit.svg"
+  },
+  {
+   "slug": "bulk-paypal",
+   "zh": "PayPal批发",
+   "en": "Bulk PayPal",
+   "count": 4,
+   "stock_total": 26,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-paypal.svg"
+  },
+  {
+   "slug": "bulk-outlook",
+   "zh": "Outlook批发",
+   "en": "Bulk Outlook",
+   "count": 4,
+   "stock_total": 12,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-outlook.svg"
+  },
+  {
+   "slug": "bulk-facebook",
+   "zh": "Facebook批发",
+   "en": "Bulk Facebook",
+   "count": 4,
+   "stock_total": 30,
+   "in_stock": 4,
+   "cover_url": "https://api.lynli.me/static/qian/covers/bulk-facebook.svg"
+  },
+  {
+   "slug": "youtube",
+   "zh": "YouTube",
+   "en": "YouTube",
+   "count": 2,
+   "stock_total": 60,
+   "in_stock": 2,
+   "cover_url": "https://api.lynli.me/static/qian/covers/youtube.svg"
+  }
+ ],
+ "traffic_platforms": [
+  {
+   "platform": "Telegram",
+   "count": 2690
+  },
+  {
+   "platform": "通用",
+   "count": 589
+  },
+  {
+   "platform": "Facebook",
+   "count": 333
+  },
+  {
+   "platform": "Instagram",
+   "count": 309
+  },
+  {
+   "platform": "TikTok",
+   "count": 212
+  },
+  {
+   "platform": "Spotify",
+   "count": 120
+  },
+  {
+   "platform": "YouTube",
+   "count": 83
+  },
+  {
+   "platform": "X",
+   "count": 76
+  },
+  {
+   "platform": "Threads",
+   "count": 56
+  },
+  {
+   "platform": "WhatsApp",
+   "count": 11
+  },
+  {
+   "platform": "Discord",
+   "count": 3
+  }
+ ],
+ "notes": [
+  "三个主文件均为纯 JSON 数组，前端 response.json() 直接得到 list。",
+  "accounts.json 中 image_url 仅 3 条有真实商品图，其余为 null，请用 cover_url（类目封面）兜底。",
+  "accounts.json 的 shop_product_id 为商城下单商品 ID；price_yuan 为前台售价，成本价不导出。",
+  "traffic.json 的 price_yuan 为起订金额（min_qty × unit_price_yuan），单价见 unit_price_yuan。",
+  "traffic.json 的 category_raw 保留原始文案供检索，category 为清洗后的展示用文案。",
+  "traffic.json 上游以 USDT 计价（4482/4482 条均为 USDT/个）：price_yuan/unit_price_yuan 为按 7.20 折算后的人民币，price_usdt/unit_price_usdt 为上游原值，两边都能对账。"
+ ]
+}

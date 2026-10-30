@@ -1,0 +1,74 @@
+[
+ {
+  "id": 1,
+  "name": "易搜加速·美西",
+  "domain": "us1.yisoujiasu.de5.net",
+  "region": "us",
+  "region_name": "美国·洛杉矶",
+  "region_name_en": "Los Angeles, United States",
+  "premium_cents": 0,
+  "premium_yuan": 0.0,
+  "enabled": true,
+  "sort": 1
+ },
+ {
+  "id": 4,
+  "name": "易搜加速·新加坡(高端)",
+  "domain": "sg1.yisoujiasu.de5.net",
+  "region": "sg",
+  "region_name": "新加坡·高端",
+  "region_name_en": "Singapore (Premium)",
+  "premium_cents": 500,
+  "premium_yuan": 5.0,
+  "enabled": true,
+  "sort": 20
+ },
+ {
+  "id": 5,
+  "name": "易搜加速·日本·东京",
+  "domain": "jp1.yisoujiasu.de5.net",
+  "region": "jp",
+  "region_name": "日本·东京",
+  "region_name_en": "Tokyo, Japan",
+  "premium_cents": 300,
+  "premium_yuan": 3.0,
+  "enabled": true,
+  "sort": 21
+ },
+ {
+  "id": 6,
+  "name": "易搜加速·中国香港",
+  "domain": "hk1.yisoujiasu.de5.net",
+  "region": "hk",
+  "region_name": "中国香港",
+  "region_name_en": "Hong Kong, China",
+  "premium_cents": 200,
+  "premium_yuan": 2.0,
+  "enabled": true,
+  "sort": 31
+ },
+ {
+  "id": 7,
+  "name": "易搜加速·德国·法兰克福",
+  "domain": "de1.yisoujiasu.de5.net",
+  "region": "de",
+  "region_name": "德国·法兰克福",
+  "region_name_en": "Frankfurt, Germany",
+  "premium_cents": 200,
+  "premium_yuan": 2.0,
+  "enabled": true,
+  "sort": 41
+ },
+ {
+  "id": 8,
+  "name": "易搜加速·英国·伦敦",
+  "domain": "uk1.yisoujiasu.de5.net",
+  "region": "uk",
+  "region_name": "英国·伦敦",
+  "region_name_en": "London, United Kingdom",
+  "premium_cents": 200,
+  "premium_yuan": 2.0,
+  "enabled": true,
+  "sort": 51
+ }
+]
