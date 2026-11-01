@@ -4,32 +4,32 @@
  "generated_at_str": "2026-10-30 15:25:28",
  "timezone": "Asia/Shanghai",
  "repo": "shuji-chu/qian",
- "branch": "main",
- "raw_base": "https://raw.githubusercontent.com/shuji-chu/qian/main/",
+ "branch": "socks5-data",
+ "raw_base": "https://raw.githubusercontent.com/shuji-chu/qian/socks5-data/",
  "files": {
   "nodes.json": {
    "bytes": 96896,
    "sha256": "e984a4f38a734514bc5305a5b6a8d188b77f1b8d2cb6f3fd939807830998e9f5",
    "count": 135,
-   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/main/nodes.json"
+   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/socks5-data/nodes.json"
   },
   "accounts.json": {
    "bytes": 1723957,
    "sha256": "05ff7dab3b08ec03fa33520703285cd87cc2d58b568228745e7d89eef229e662",
    "count": 1861,
-   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/main/accounts.json"
+   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/socks5-data/accounts.json"
   },
   "traffic.json": {
    "bytes": 3550552,
    "sha256": "1e2d17c7578d430c8dc7895d742193c7dc6c068b2cfc7884a50029e241c5724e",
    "count": 4482,
-   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/main/traffic.json"
+   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/socks5-data/traffic.json"
   },
   "servers.json": {
    "bytes": 1645,
    "sha256": "05f4f44b5b5ab07128d15bde072add12e7960baf02a2d453293426fe88c4d566",
    "count": 6,
-   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/main/servers.json"
+   "raw": "https://raw.githubusercontent.com/shuji-chu/qian/socks5-data/servers.json"
   }
  },
  "counts": {
