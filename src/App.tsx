@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { type FormEvent, useCallback, useEffect, useMemo, useState } from 'react';
 import {
   Activity, ArrowDownRight, ArrowUpRight, Boxes, Check, ChevronDown, CircleDollarSign,
   Cloud, Database, Globe2, LayoutDashboard, LoaderCircle, LogOut, Menu, RefreshCw,
@@ -60,7 +60,7 @@ function App(){
     finally{setBusy(false);}
   },[token,api,logout]);
   useEffect(()=>{if(token)load();},[token]);
-  const login=async(e:React.FormEvent)=>{
+  const login=async(e:FormEvent)=>{
     e.preventDefault();setLoginBusy(true);setError('');
     try{
       const d=await api('/auth/login',{method:'POST',body:JSON.stringify({email,password})});
@@ -81,7 +81,7 @@ function App(){
     try{await api('/admin/users/status',{method:'POST',body:JSON.stringify({userId:u.id,status:next})});setUsers(prev=>prev.map(x=>x.id===u.id?{...x,status:next}:x));setNotice('用户状态已更新');}
     catch(e:any){setError(e.message);}
   };
-  const adjustQuota=async(e:React.FormEvent)=>{
+  const adjustQuota=async(e:FormEvent)=>{
     e.preventDefault();if(!quotaTarget)return;
     const delta=Number(quotaDelta);if(!Number.isInteger(delta)||delta===0){setError('配额变动必须为非零整数');return;}
     try{const d=await api('/admin/users/quota',{method:'POST',body:JSON.stringify({userId:quotaTarget.id,delta,reason:quotaReason})});setUsers(prev=>prev.map(x=>x.id===quotaTarget.id?{...x,quota:d.quota}:x));setQuotaTarget(null);setNotice('配额调整成功');}
