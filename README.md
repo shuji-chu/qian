@@ -24,3 +24,6 @@ npm run build
 
 ## 数据迁移说明
 SOCKS5 静态商品数据已保留在本仓库的 \`socks5-data\` 分支。SOCKS5 前端回退数据地址已更新到该分支；原有 \`https://api.lynli.me/static/qian/\` 镜像地址保持不变。
+
+
+最近一次部署触发：Cloudflare Pages GitHub 集成已连接至 `main` 分支。每次推送主分支都会自动构建管理后台。
